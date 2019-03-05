@@ -1,0 +1,1 @@
+from flask import Blueprintroute_admin = Blueprint('admin_page', __name__)from web.controller.admin.index import *
