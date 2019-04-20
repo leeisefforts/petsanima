@@ -12,6 +12,16 @@ def main():
     manager.run()
 
 
+@app.errorhandler(404)
+def page_404(er):
+    return render_template('error/error.html')
+
+
+@app.errorhandler(502)
+def page_502(er):
+    return render_template('error/error.html')
+
+
 if __name__ == '__main__':
     try:
         import sys
