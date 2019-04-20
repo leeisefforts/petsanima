@@ -1,1 +1,6 @@
-flaskflask-scriptflask-sqlalchemyflask-debugtoolbarpymysqlrequests
+flask
+flask-script
+flask-sqlalchemy
+flask-debugtoolbar
+pymysql
+requests
