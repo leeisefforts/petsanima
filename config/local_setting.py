@@ -26,9 +26,9 @@ API_IGNORE_URLS = [
 AUTH_COOKIE_NAME = 'UserCookie'
 SERVER_PORT = '5000'
 SQLALCHEMY_ECHO = False
-SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:Worktech!@cd-cdb-gf49lo9s.sql.tencentcdb.com:63247/petsanima'
+SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://bryant:leekobe24@cd-cdb-gf49lo9s.sql.tencentcdb.com:63247/petsanima'
 SQLALCHEMY_TRACK_MODIFICATIONS = True
 SQLALCHEMY_ENCODING = "utf8mb4"
 SQLALCHEMY_BINDS = {
-    'wechat': "mysql+pymysql://root:Worktech!@cd-cdb-gf49lo9s.sql.tencentcdb.com:63247/petsanima"
+    'wechat': "mysql+pymysql://bryant:leekobe24@cd-cdb-gf49lo9s.sql.tencentcdb.com:63247/petsanima"
 }
